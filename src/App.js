@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import Teste from './componentes/useContextA'
+//import Teste from './componentes/useReduce'
+//import Teste from './componentes/useReducetwo'
+import Teste from './componentes/useReducethree'
+//export const UserContext =  React.createContext()
+//export const ChannelContext =  React.createContext()
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Teste/>,
+
+{
+  /*<UserContext.Provider value={'anderson'}>
+      <ChannelContext.Provider value={'code init'}> 
+        <Teste/>
+      </ChannelContext.Provider>
+    </UserContext.Provider>*/
+}
+    
+    </>
+  
+  
   );
 }
 
