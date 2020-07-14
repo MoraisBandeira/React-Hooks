@@ -1,28 +1,21 @@
 import React from 'react';
-//import Teste from './componentes/useContextA'
-//import Teste from './componentes/useReduce'
-//import Teste from './componentes/useReducetwo'
-import Teste from './componentes/useReducethree'
-//export const UserContext =  React.createContext()
-//export const ChannelContext =  React.createContext()
+import HookTimer from './componentes/hookTimer';
+//import Focus from './componentes/FocusInput'
+import ClassTimer from './componentes/ClassTimer';
 
 function App() {
-  return (
-    <>
-      <Teste/>,
 
-{
-  /*<UserContext.Provider value={'anderson'}>
-      <ChannelContext.Provider value={'code init'}> 
-        <Teste/>
-      </ChannelContext.Provider>
-    </UserContext.Provider>*/
-}
+
+  return (
+      <div>
+          {/*<Focus/>*/}
+          <ClassTimer/>
+          <HookTimer/>
+   
+      </div>
+   
     
-    </>
-  
-  
   );
 }
-
+ 
 export default App;

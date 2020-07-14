@@ -1,0 +1,5 @@
+<UserContext.Provider value={'anderson'}>
+      <ChannelContext.Provider value={'code init'}> 
+        <Teste/>
+      </ChannelContext.Provider>
+    </UserContext.Provider>
